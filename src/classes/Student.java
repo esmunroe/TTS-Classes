@@ -58,4 +58,16 @@ public class Student {
     public Boolean hasClasses(){
         return classes.size() > 0;
     }
+
+    @Override
+    public String toString() {
+        String studentInfo = "Name:\t" + name +
+                "Age:\t" + age +
+                "Grade Level:\t" + gradeLevel +
+                "Classes:\n";
+        for (int i = 0; i < classes.size(); i++) {
+            studentInfo.concat(classes.get(i) + "\n");
+        }
+        return studentInfo;
+    }
 }
