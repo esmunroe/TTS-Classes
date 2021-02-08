@@ -54,4 +54,8 @@ public class Student {
     public void setClasses(ArrayList<String> classes) {
         this.classes = classes;
     }
+
+    public Boolean hasClasses(){
+        return classes.size() > 0;
+    }
 }
