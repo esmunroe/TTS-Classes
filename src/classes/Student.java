@@ -22,4 +22,36 @@ public class Student {
         this.gradeLevel = gradeLevel;
         this.classes = classes;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
+    }
+
+    public ArrayList<String> getClasses() {
+        return classes;
+    }
+
+    public void setClasses(ArrayList<String> classes) {
+        this.classes = classes;
+    }
 }
