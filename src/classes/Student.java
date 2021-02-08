@@ -56,7 +56,7 @@ public class Student {
     }
 
     public Boolean hasClasses(){
-        return classes.size() > 0;
+        return !classes.isEmpty();
     }
 
     @Override
